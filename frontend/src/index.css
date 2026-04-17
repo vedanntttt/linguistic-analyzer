@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Make displaCy SVG scroll horizontally instead of overflowing */
+.dep-tree svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.dep-tree > div {
+  overflow-x: auto;
+}
